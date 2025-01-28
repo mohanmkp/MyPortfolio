@@ -163,7 +163,7 @@ section h2 {
 
 .skill-card i {
     font-size: 3rem;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     margin-bottom: 1rem;
 }
 
@@ -292,4 +292,34 @@ footer .container {
         gap: 1rem;
         text-align: center;
     }
+}
+
+
+.skill-img {
+    width: 3rem;
+}
+
+.demo-button {
+    display: inline-block;
+    padding: 0.5rem 0.7rem;
+    background: linear-gradient(135deg, #3776AB, #FFD43B); /* Python blue and yellow */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.demo-button:hover {
+    background: linear-gradient(135deg, #FFD43B, #3776AB); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.demo-button:active {
+    transform: scale(0.98); /* Click effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
